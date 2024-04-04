@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/price.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div id="BodyContainer">
+        <a href="#">
+            <div class="scrollToTop-btn">
+              <i class="fa-solid fa-angles-up"></i>
+            </div>
+          </a>
+      
+      
+          <nav class="navbar navbar-expand-md d-flex align-items-center justify-content-around position-fixed">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white font-monospace " href="javascript:void(0)" style="font-size: 40px;font-weight: 900;">Logis</a>
+              <button id="navicon" class="navbar-toggler" style="color: white; background-color: #eee;" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" style="visibility: hidden;" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="javascript:void(0)">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="javascript:void(0)">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="javascript:void(0)">Link</a>
+                  </li>
+                </ul>
+                  <button class="btn btn-primary" type="button">Search</button>
+              </div>
+              <div class="collapse navbar-collapse">
+                <div class="aWrapper d-flex align-items-center gap-5 ">
+                  <a href="home.html" class="text-decoration-none">Home</a>
+                  <a href="about.html" class="text-decoration-none">About</a>
+                  <a href="service.html" class="text-decoration-none">Services</a>
+                  <a href="price.html" class="text-decoration-none">Pricing</a>
+                  <div class="dropdown">
+                    <button class="dropbtn bg-transparent">Dropdown <i class="fa-solid fa-angle-down"></i></button>
+                    <div class="dropdown-content rounded">
+                      <a href="#">Dropdown 1</a>
+                      <a href="#">Dropdown 2</a>
+                      <a href="#">Dropdown 3</a>
+                      <a href="#">Dropdown 4</a>
+                      <a href="#">Dropdown 5</a>
+                      <a href="#">Dropdown 6</a>
+                      <a href="#">Dropdown 7</a>
+                      <a href="#">Dropdown 8</a>
+                      <a href="#">Dropdown 9</a>
+                    </div>
+                  </div>
+                  <a href="contact.html" class="text-decoration-none">Contact</a>
+                  <a href="getquote.html">
+                    <button class="btn btn-outline-danger">Get Quote</button>
+                  </a>
+              </div>
+            </div>
+          </nav>
+            
+          <!-- Home Container -->
+         <div id="Aboutheader">
+          <h1 class="text-white" style="font-size: 60px;">Pricing</h1>
+          <p class="text-white w-75 text-center fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium culpa sed nesciunt praesentium, nemo labore voluptatibus delectus consectetur et ipsam nam possimus voluptates voluptatem vero distinctio commodi soluta quae</p>
+         </div>
+      
+      
+      
+        <div class="navbar2 w-100 bg-secondary-subtle p-4 d-flex align-items-center ">
+          <h4><a href="home.html">Home</a> / About</h4>
+        </div>
+
+        
+<!-- Pricing -->
+
+<div id="Pricing" class="reveal" style="width: 100%;height: 700px;">
+    <div id="pricingnav" class="reveal mt-5 ">
+     <h1>Pricing</h1>
+     <p>Pricing</p>
+    </div>
+   
+     <div id="PricingcardsWrapper" class="reveal">
+       <div id="Pricingcard1" class="rounded">
+         <h1>Free Plan</h1>
+         <span class="text-primary" style="position: relative;top: -20px; font-size: 30px;">$</span> <span class="text-primary fa-4x">0</span> <span class="text-secondary fa-2x">/ month</span>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Quam adipiscing vitae proin</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Nec feugiat nisl pretium</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Nulla at volutpat diam uteera</p>
+         <p style="font-size: 19px; color: grey;text-decoration: line-through;" id="hvr"><i class="fa-solid fa-xmark"></i> Pharetra massa massa ultricies</p>
+         <p style="font-size: 19px; color: grey;text-decoration: line-through;" id="hvr"><i class="fa-solid fa-xmark"></i> 
+           Massa ultricies mi quis hendrerit</p>
+         <br>
+           <a href="#" class="btn btn-outline-primary" style="width: 170px;height: 50px;font-size: 20px;">Buy Now</a>
+   
+       </div>
+   
+   
+       <div id="Pricingcard1" class="rounded" style="border-top: 5px solid #0d6efd;">
+         <h1>Business Plan</h1>
+         <span class="text-primary" style="position: relative;top: -20px;font-size: 30px;">$</span> <span class="text-primary fa-4x">29</span> <span class="text-secondary fa-2x">/ month</span>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Quam adipiscing vitae proin</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Nec feugiat nisl pretium</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Nulla at volutpat diam uteera</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Pharetra massa massa ultricies</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Massa ultricies mi quis hendrerit</p>
+         <br>
+         <a href="#" class="btn btn-primary" style="width: 170px;height: 50px;font-size: 20px;">Buy Now</a>
+       </div>
+   
+   
+   
+       <div id="Pricingcard1" class="rounded">
+         <h1>Developer Plan</h1>
+         <span class="text-primary" style="position: relative;top: -20px;font-size: 30px;">$</span> <span class="text-primary fa-4x">49</span> <span class="text-secondary fa-2x">/ month</span>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Quam adipiscing vitae proin</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Nec feugiat nisl pretium</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Nulla at volutpat diam uteera</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Pharetra massa massa ultricies</p>
+         <p style="font-size: 19px;" id="hvr"><i class="fa-solid fa-check text-success"></i> Massa ultricies mi quis hendrerit</p>
+         <br>
+         <a href="#" class="btn btn-outline-primary" style="width: 170px;height: 50px;font-size: 20px;">Buy Now</a>
+       </div>
+   
+   
+       
+     </div>
+   
+    
+   </div>
+   
+   <!-- /Pricing -->
+
+
+
+
+
+<!-- Pricing2 -->
+   
+   <div class="pricingnav2 reveal">
+     <h1>Horizantal</h1>
+     <p>Horizantal</p>
+   </div>
+    <div class="pricingcard reveal d-flex justify-content-between px-5 py-3 align-items-center rounded ">
+        <h1>Free Plan</h1>
+        <h1 class="d-flex align-items-center text-primary ">$<p style="font-size: 65px;position: relative;top: 20px;">0</p><p class="text-secondary" style="position: relative;top: 20px;left: 10px;"> / month</p></h1>
+        <div class="yozuvlar">
+            <p>✔ Quam adipiscing vitae proin </p>
+            <p>✔ Quam adipiscing vitae proin </p>
+            <p style="text-decoration: line-through;color: grey;opacity: 0.6;">❌ Quam adipiscing vitae proin </p>
+        </div>
+        <button style="width: 180px;height: 60px;border-radius: 10px;" class="btn btn-outline-primary  fs-4">Buy Now</button>
+    </div>  
+    <br><br>    
+    <div class="pricingcard reveal d-flex justify-content-between px-5 py-3 align-items-center rounded bg-primary ">
+        <h1>Bussiness Plan</h1>
+        <h1 class="d-flex align-items-center text-white  ">$<p style="font-size: 65px;position: relative;top: 20px;">29</p><p style="position: relative;top: 20px;left: 10px;"> / month</p></h1>
+        <div class="yozuvlar">
+            <p>✔ Quam adipiscing vitae proin </p>
+            <p>✔ Quam adipiscing vitae proin </p>
+            <p>✔ Quam adipiscing vitae proin </p>
+        </div>
+        <button style="width: 180px;height: 60px;border-radius: 10px;" class="btn btn-outline-light   fs-4">Buy Now</button>
+    </div>
+    <br><br>    
+    <div class="pricingcard reveal d-flex justify-content-between px-5 py-3 align-items-center rounded ">
+        <h1>Developer Plan</h1>
+        <h1 class="d-flex align-items-center text-primary ">$<p style="font-size: 65px;position: relative;top: 20px;">49</p><p class="text-secondary" style="position: relative;top: 20px;left: 10px;"> / month</p></h1>
+        <div class="yozuvlar">
+            <p>✔ Quam adipiscing vitae proin </p>
+            <p>✔ Quam adipiscing vitae proin </p>
+            <p>✔ Quam adipiscing vitae proin </p>
+        </div>
+        <button style="width: 180px;height: 60px;border-radius: 10px;" class="btn btn-outline-primary  fs-4">Buy Now</button>
+    </div>
+      
+
+<!-- /Pricing2 -->
+   
+
+<br><br><br>
+
+<!-- Footer -->
+
+<footer class="bg-dark">
+    <div class="FooterContainer w-100 h-100 d-flex ">
+  <div class="Fotertxt">
+    <h1 class="text-white fs-2 ">Logis</h1>
+    <p style="width: 500px;font-size: 20px;" class="text-white fs-5 ">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+  
+      <div class="social-links d-flex mt-4">
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+      <div class="d-flex" style="justify-content: space-around;width: 1000px;">
+         <div class="column1">
+            <h3 class="text-white fs-5">Useful links</h3>
+            <a href="#" class="text-decoration-none "><p>Home</p></a>
+            <a href="#" class="text-decoration-none "><p>About Us</p></a>
+            <a href="#" class="text-decoration-none "><p>Services</p></a>
+            <a href="#" class="text-decoration-none "><p>Terms of service</p></a>
+            <a href="#" class="text-decoration-none "><p>Privacy policy</p></a>
+         </div>
+         <div class="column1">
+            <h3 class="text-white fs-5">Our Services</h3>
+            <a href="#" class="text-decoration-none "><p>Web Design</p></a>
+            <a href="#" class="text-decoration-none "><p>Web Development</p></a>
+            <a href="#" class="text-decoration-none "><p>Product Managment</p></a>
+            <a href="#" class="text-decoration-none "><p>Marketing</p></a>
+            <a href="#" class="text-decoration-none "><p>Graphic Design</p></a>
+         </div>
+         <div class="column1">
+            <h3 class="text-white ">Contact Us</h3>
+            <p class="text-white">Marvarid street</p>
+            <p class="text-white">Sirdaryo Axmedov</p>
+            <p class="text-white">Uzbekistan</p>
+            <p class="text-white"></p>
+            <p class="text-white"><b>Phone:</b> +998 99-902-01-29</p>
+            <p class="text-white"><b>Email:</b> shukurulloganisherov5@gmail.com</p>
+         </div>
+      </div>
+    </div>
+    
+    <h1 class="text-white" style="text-align: center;margin-top: 70px;">Designed by <b style="background: linear-gradient(red, orange);font-size: 40px;font-weight: 600;">Shukurullo</b></h1>
+  
+  
+  
+  </footer>
+  
+  <!-- /Footer -->
+    </div>
+
+
+
+    <script src="./js/price.js"></script>
+</body>
+</html>

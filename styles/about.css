@@ -1,0 +1,393 @@
+/* HomeContainer */
+.navbar {
+    width: 1349px;
+    height: 90px;
+    background: transparent;
+    top: 0;
+    z-index: 3;
+  }
+  
+  
+  
+  
+  body {
+    z-index: 2;
+  }
+  
+  #BodyContainer {
+    width: 1349px;
+    z-index: 2;
+    overflow: hidden;
+  }
+  
+  .navbar.sticky {
+    transition: 1s;
+    background: rgb(0, 0, 104);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown button {
+    color: rgb(185, 185, 185);
+    font-size: 20px;
+  }
+  
+  .dropdown button:hover {
+    transition: 0.15s;
+    color: #fff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: blue;
+    border-radius: 7px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .aWrapper{
+    position: absolute;
+    right: 50px;
+  }
+  
+  
+  
+  .aWrapper a {
+    color: rgb(185, 185, 185);
+    font-size: 21px;
+  }
+  
+  .aWrapper a:hover {
+    color: #fff;
+  }
+  
+  .aWrapper>button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Aboutheader {
+    width: 1349px;
+    height: 430px;
+    background-image: url('https://img.freepik.com/free-vector/abstract-red-circle-black-background-technology_1142-9839.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
+
+  
+  .scrollToTop-btn {
+    z-index: 999;
+    position: fixed;
+    background: blue;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s ease;
+  }
+  
+  .scrollToTop-btn.active {
+    right: 20px;
+    opacity: 1;
+  }
+  
+  
+.reveal {
+  position: relative;
+  transform: translateY(100px);
+  transform: translateX(50px);
+  opacity: 0;
+  transition: all 1.3s ease
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-image: url('https://i.pinimg.com/originals/47/8f/7d/478f7d0c9306425e7b30c1c93a14819f.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scrollToTop-btn {
+    z-index: 999;
+    position: fixed;
+    background: blue;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s ease;
+  }
+  
+  .scrollToTop-btn.active {
+    right: 20px;
+    opacity: 1;
+  }
+  
+  
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+  
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+
+
+.About {
+  width: 90%;
+  height: 550px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+}
+
+.Aboutxt {
+  width: 50%;
+  height: 100%;
+}
+
+.Aboutxt h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: darkblue;
+}
+
+.Aboutxt p {
+  font-size: 22px;
+  font-weight: 400;
+  color: darkblue;
+}
+
+.AboutCardsWrapper {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Aboutcard {
+  width: 100%;
+  height: 31%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.Aboutcard i {
+  color: #0d6efd;
+}
+
+.cardsWrapper {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 170px;
+  top: 200px;
+  gap: 330px;
+}
+
+.cardsWrapper > .card {
+  width: 120px;
+  height: 250px;
+  display: flex;
+  background: transparent;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  border: none;
+  gap: 14px;
+}
+.card:hover{
+  cursor: pointer;
+}
+.imgcontainer{
+  overflow: hidden;
+}
+.cardsWrapper > .card h1{
+  font-size: 60px;
+}
+.card img{
+  object-fit: cover;
+  transition: .6s ease;
+}
+.card:hover img{
+  transform: scale(1.25);
+}
+.card:hover .card-body h4 {
+  color: #0d6efd;
+}
+.card .card-body h4 {
+  transition: .5s ease;
+}
+.AboutHrefs{
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.AboutHrefs i{
+  font-size: 40px;
+  color: rgb(93, 93, 93);
+  cursor: pointer;
+}
+.AboutHrefs i:hover{
+  transition: 0.3s;
+  font-size: 40px;
+  color: blue;
+}
+
+
+
+
+
+footer {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  border-color: #fff;
+  color: #fff;
+}
+.column1 a p{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+}
+.column1 a:hover p{
+  color: white;
+}
+
+
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(blueviolet, red);
+  border-radius: 12px;
+  cursor: all-scroll;
+}
